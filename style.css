@@ -265,16 +265,19 @@ p {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
 
     .tittle {
         margin-bottom: 0;
         margin-top: 8rem;
-        font-size: 40px;
+        font-size: 30px;
     }
 
+    p {
+        font-size: 18px;
+    }
+    
     .header .abajo {
-        display: flex;
         flex-direction: column;
         margin-bottom: 85px;
         
@@ -299,5 +302,7 @@ p {
     .logo h1{
         display: none;
     }
+
+    
 
 }
